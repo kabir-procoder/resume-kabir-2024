@@ -1,0 +1,39 @@
+   @media (max-width:991px)
+   {
+    .home-info-right,
+    .home-info-left,
+    .exprience-content,
+    .info-left-content,
+    .info-right-content,
+    .project-content .row-p,
+    .exprience-content .row-l,
+    .exprience-content .row-r
+    {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .exprience-content,
+    .project-content
+    {
+        display: block;
+    }
+    .project-details
+    {
+        margin-right: 0; 
+    }
+    .secoundsec
+    {
+        margin-top: 20px;
+    }
+   }
+
+
+/*    @media (max-width:767px)
+   {
+    .home-info-right,
+    .home-info-left
+    {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+   } */
